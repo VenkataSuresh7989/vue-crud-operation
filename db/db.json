@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "email": "suresh@gmail.com",
+      "name": "suresh",
+      "password": "suresh123",
+      "id": 1
+    },
+    {
+      "name": "venkat",
+      "email": "venkat@gmail.com",
+      "password": "venkat123",
+      "id": 2
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 3
+    },
+    {
+      "name": "asd",
+      "email": "asd",
+      "password": "asd",
+      "id": 4
+    },
+    {
+      "name": "Surada Gouri",
+      "email": "gouri@gmail.com",
+      "password": "Gouri@2000",
+      "id": 5
+    },
+    {
+      "name": "raja",
+      "email": "raja",
+      "password": "raja",
+      "id": 6
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "aaa",
+      "address": "bbb",
+      "contact": "aaa",
+      "id": 2
+    }
+  ]
+}
