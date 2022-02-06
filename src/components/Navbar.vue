@@ -34,9 +34,9 @@
         </li>
       </ul>
       <div class="user" v-if="name">
-        <p>
+        <h6 class="username">
           Welcome :<span>{{ name}}</span>
-        </p>
+        </h6>
       </div>
     </div>
   </nav>

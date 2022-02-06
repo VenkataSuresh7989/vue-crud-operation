@@ -1,12 +1,13 @@
 <template>
-  <div>
+  <div class="container">
+    <h3>Dashboard</h3>
     <table border="2" class="tab">
       <tr>
-        <td>ID</td>
-        <td>Name</td>
-        <td>Contact</td>
-        <td>Address</td>
-        <td>Actions</td>
+        <td style="font-weight:bold">ID</td>
+        <td style="font-weight:bold">Name</td>
+        <td style="font-weight:bold">Contact</td>
+        <td style="font-weight:bold">Address</td>
+        <td style="font-weight:bold">Actions</td>
       </tr>
       <tr v-for="item in restaurant" :key="item.id">
         <td>{{ item.id }}</td>

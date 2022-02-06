@@ -1,6 +1,10 @@
 h1,
+h3,
+td,
+tr,
 a,
 p,
+.username,
 span {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -8,8 +12,21 @@ body {
   padding: 0;
   margin: 0;
 }
-.register,.login,.update, .add-detail{ text-align:center; }
-.register button,.login button,.update button, .add-detail button{max-width: 300px; width:100%;margin:0 auto 15px auto;}
+.register,
+.login,
+.update,
+.add-detail,
+.container {
+  text-align: center;
+}
+.register button,
+.login button,
+.update button,
+.add-detail button {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto 15px auto;
+}
 .register input,
 .login input,
 .add input {
@@ -20,17 +37,25 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
-  border: 1px solid skyblue;
+  border: 1px solid grey;
 }
 .register button,
 .login button,
 .add button {
   width: 320px;
   height: 40px;
-  border: 1px solid skyblue;
+  border: 1px solid grey;
   background: skyblue;
   color: #000;
   cursor: pointer;
+}
+.tab {
+  width: 500px;
+  height: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  border: 2px solid grey;
 }
 .navbar-style {
   background-color: #0c8351 !important;
@@ -43,4 +68,8 @@ body {
 }
 .user span {
   color: #f84460;
+}
+.username {
+  margin-top: 5px;
+  margin-right: auto;
 }

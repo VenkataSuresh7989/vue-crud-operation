@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="add-detail">
-    <h1>Add</h1>
+    <h1>Add Restaurants</h1>
     <form class="add">
       <input
         type="text"
